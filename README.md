@@ -1,5 +1,10 @@
 # Agent Skills SDK
 
+[![PyPI version](https://badge.fury.io/py/agent-skills-sdk.svg)](https://pypi.org/project/agent-skills-sdk/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/supreeth-ravi/agentskills?style=social)](https://github.com/supreeth-ravi/agentskills)
+
 **Implementation of [Anthropic's Agent Skills](https://agentskills.io) open standard** - makes skills discoverable and usable by agents in production frameworks.
 
 ## What is Agent Skills?
@@ -28,8 +33,8 @@ This SDK **implements the Agent Skills standard**, providing the tooling layer t
 ## Quick Start
 
 ```bash
-# Install
-pip install -e .
+# Install from PyPI
+pip install agent-skills-sdk
 
 # Set API key (for examples)
 export OPENROUTER_API_KEY="your-key"
